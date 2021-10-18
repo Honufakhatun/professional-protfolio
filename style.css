@@ -1,5 +1,6 @@
 body {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins',
+    sans-serif;
 margin: 0;}
 
 #header{
@@ -18,7 +19,7 @@ margin: 0;}
     color: #FFA132;
 }
 .link-color{
-    padding: 8px 40px;
+    padding: 10px 40px;
     text-decoration: none;
     background-image: linear-gradient(#FA6F5B, #FFC51E);
     font-size: 20px;
@@ -27,8 +28,11 @@ margin: 0;}
     
 
  }
- .header-part p{margin-bottom: 30px;}
-.header-part h1{font-size: 40px;}
+.header-part p{margin-bottom: 30px;
+}
+.header-part h1 {
+    font-size: 45px;
+}
 .header-part img{
     width: 100%;
 }
@@ -46,5 +50,47 @@ margin: 0;}
     padding-right: 10%;
 }
 .dream-part p {
+    margin-bottom: 30px;
+}
+.dream-part h1{font-size: 45px;}
+#experiences-area{
+    background-image: url(Images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    padding: 4%;
+}
+.exp-color{
+    margin-bottom: 50px;
+    font-size: 35px;
+}
+.experiences-part{
+    display: flex;
+}
+.experiences-part h3{
+    color: #FEAE2A;
+    
+}
+.experiences-part div{
+    height: 80%;
+    margin: 20px;
+}
+#full-stack{
+    box-shadow: 4px 8px 40px #a8683d;
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, #52b5ee, #3c00ff);
+    border-image-slice: 1;
+    padding: 10px 20px 10px 20px;
+}
+#baby-web{
+    box-shadow: 4px 8px 40px #a8683d;
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, #fa733e, #FFC51E);
+    border-image-slice: 1;
+    padding: 10px 20px 10px 20px;
+
+}
+footer p{
+    text-align: center;
+    color: #FA6F5B;
     margin-bottom: 30px;
 }
