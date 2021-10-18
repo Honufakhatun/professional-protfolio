@@ -1,0 +1,50 @@
+body {
+    font-family: 'Poppins', sans-serif;
+margin: 0;}
+
+#header{
+    display: flex;
+    background-image: url(Images/top-banner.png);
+    background-repeat: no-repeat;
+    padding-bottom: 10%;
+}
+.header-part{
+    width: 50%;
+    padding-left: 5%;
+    margin-top: 30px;
+    
+}
+.name-color{
+    color: #FFA132;
+}
+.link-color{
+    padding: 8px 40px;
+    text-decoration: none;
+    background-image: linear-gradient(#FA6F5B, #FFC51E);
+    font-size: 20px;
+    color: #000;
+    border-radius: 10px;
+    
+
+ }
+ .header-part p{margin-bottom: 30px;}
+.header-part h1{font-size: 40px;}
+.header-part img{
+    width: 100%;
+}
+#dream-area {
+    display: flex;
+    background-image: url(Images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.dream-part img {
+    width: 100%;
+}
+.dream-part {
+    width: 50%;
+    padding-right: 10%;
+}
+.dream-part p {
+    margin-bottom: 30px;
+}
